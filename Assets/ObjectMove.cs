@@ -43,9 +43,6 @@ public class ObjectMove : MonoBehaviour
     {
         if (collisionInfo.collider.tag == "Obstacle")
         {
-            _speed = 0;
-            transform.position = Vector3.zero;
-            _speed = 1000;
             int xPos = 1200, yPos = 600;
             // int xPos = Screen.height /2;
             // int yPos = Screen.width /2;
